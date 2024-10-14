@@ -8,6 +8,11 @@ x = 1 + 2
 print(type(x))
 #<class 'int'>
 
+#typ wyniku 1 + 4.5
+x = 1 + 4.5
+print(type(x))
+#<class 'float'>
+
 #typ wyniku 3/2
 x = 3 / 2
 print(type(x))
