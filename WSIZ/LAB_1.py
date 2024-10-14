@@ -117,8 +117,8 @@ print(f"Mój wzrost to {wzrost} cm.")
 #ZAD6
 #s = int(input("podaj dlugosc drogi: "))
 import random
-s = random.randint(1, 100000)
-print(s)
+s = random.randint(1, 1000)
+print(f"wylosowana odleglosc{s}")
 
 spalanie = float(input("Podaj srednie spalanie w litrach na 100km: "))
 print(spalanie)
