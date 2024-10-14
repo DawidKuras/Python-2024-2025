@@ -126,5 +126,5 @@ print(spalanie)
 zuzycie = s / spalanie
 koszt = zuzycie * 6.5
 
-print("spalone paliwo", zuzycie)
-print("koszt przejechanej drogi: ", koszt)
+print(f"spalone paliwo: {zuzycie}")
+print(f"koszt przejechanej drogi: {koszt}PLN")
