@@ -84,26 +84,42 @@ print(f"Nazywam się {imię} i mam {wiek} lat.")
 print(f"Mój wzrost to {wzrost} cm.")
 
 
-#ZAD4
-Cena = 39.99
-Rabat = 0.2
+# #ZAD4
+# Cena = 39.99
+# Rabat = 0.2
 
-Cena_po_rabacie = Cena * (1 - Rabat)
+# Cena_po_rabacie = Cena * (1 - Rabat)
 
-print(f"Cena produktu po rabacie wynosi: {Cena_po_rabacie:.2f} PLN")
+# print(f"Cena produktu po rabacie wynosi: {Cena_po_rabacie:.2f} PLN")
 
 
 
-#ZAD5
+# #ZAD5
 
-a = float(input("Podaj pierwszy bok prostokąta: "))
-print(a)
+# a = float(input("Podaj pierwszy bok prostokąta: "))
+# print(a)
 
-b = float(input("Podaj drugi bok prostokata: "))
-print(b)
+# b = float(input("Podaj drugi bok prostokata: "))
+# print(b)
 
-pole = a * b
-obwod = 2 * a + 2 * b
+# pole = a * b
+# obwod = 2 * a + 2 * b
 
-print("pole prostokata: ", pole)
-print("obowd prostokata: ", obwod)
+# print("pole prostokata: ", pole)
+# print("obowd prostokata: ", obwod)
+
+
+#ZAD6
+#s = int(input("podaj dlugosc drogi: "))
+import random
+s = random.randint(1, 100000)
+print(s)
+
+spalanie = float(input("Podaj srednie spalanie w litrach na 100km: "))
+print(spalanie)
+
+zuzycie = s / spalanie
+koszt = zuzycie * 6.5
+
+print("spalone paliwo", zuzycie)
+print("koszt przejechanej drogi: ", koszt)
